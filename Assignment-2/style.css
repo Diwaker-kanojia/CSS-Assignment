@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding-bottom: 50px;
+  border: 8px solid greenyellow;
+  background-image: url("./photo-1502998070258-dc1338445ac2.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+header div {
+  color: white;
+  background-color: black;
+  border: 8px solid red;
+  border-radius: 25px;
+}
+
+header .box-1 {
+  padding: 5px 10px 32px 32px;
+}
+
+header .box-2 {
+  padding: 10px 64px 0;
+  height: 80px;
+  display: flex;
+  align-items: end;
+}
+
+header .box-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+main .section-1 {
+  display: flex;
+  gap: 100px;
+}
+
+main .section-1 .offer-circle {
+  margin-top: 100px;
+  color: black;
+  height: 430px;
+  width: 430px;
+  border-radius: 50%;
+  background-color: rgb(70, 160, 160);
+  border: 5px solid grey;
+}
+
+main .section-1 .offer-circle .p1 {
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: x-large;
+  font-style: italic;
+  margin-top: 100px;
+  margin-left: 110px;
+  margin-bottom: 25px;
+}
+
+main .section-1 .offer-circle .p2 {
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-1 form {
+  width: 500px;
+  border: 10px dashed red;
+}
+
+form h1 {
+  margin: 15px;
+  text-align: center;
+  color: red;
+  font-weight: 100;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 600;
+  color: red;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: flex;
+  margin-left: 160px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form .check {
+  margin-left: 240px;
+}
+
+form .btn {
+  margin-left: 200px;
+  min-width: 100px;
+}
+
+.menu-section {
+  margin-top: 50px;
+}
+
+.menu-section h1 {
+  color: white;
+  background-color: black;
+  border: 8px solid red;
+  border-radius: 25px;
+  width: 400px;
+  text-align: center;
+  padding-block: 25px;
+  font-style: italic;
+  margin-inline: auto;
+  margin-block: 10px;
+  font-size: 30px;
+}
+
+.menu-section hr {
+  border: 1px solid grey;
+}
+
+.menu-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.menu-box {
+  width: 400px;
+  background-color: aqua;
+  border: 5px solid green;
+  border-radius: 20px;
+  color: #00008b;
+}
+
+.menu-box h2 {
+  font-size: 32px;
+  padding-block: 10px;
+  text-align: center;
+}
+
+.menu-box div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.menu-box div ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
