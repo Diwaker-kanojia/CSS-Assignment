@@ -1,0 +1,66 @@
+h2 {
+  color: crimson;
+}
+
+hr {
+  border: 1px solid grey;
+}
+
+h3 {
+  color: green;
+}
+
+.ordered-list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.strike-text {
+  text-decoration: line-through;
+}
+
+.bg-text {
+  background-color: yellow;
+  font-weight: 700;
+}
+
+.underline-text {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.unordered-list li {
+  color: brown;
+  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.unordered-list span {
+  font-weight: 700;
+  background-color: yellow;
+}
+
+.compare-text {
+  font-weight: lighter;
+  color: brown;
+  font-size: 24px;
+}
+
+.secondLast-text {
+  font-size: xx-small;
+  color: brown;
+}
+
+.last-text {
+  font-style: oblique;
+  color: brown;
+  font-weight: lighter;
+}
+
+a {
+  background-color: yellow;
+  text-decoration: none;
+  color: brown;
+  font-weight: 400;
+}
