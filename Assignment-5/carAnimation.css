@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    orange 0%,
+    orange 30%,
+    white 33%,
+    white 64%,
+    green 67%,
+    green 100%
+  );
+  padding: 10px;
+}
+
+.body {
+  height: 100%;
+  background-image: url("./CSSA5/sky.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.para {
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+#p1 {
+  background-color: orange;
+  padding: 5px;
+}
+#p2 {
+  background-color: white;
+  padding: 5px;
+}
+#p3 {
+  background-color: green;
+  padding: 5px;
+}
+
+.main2 {
+  background-image: url("./CSSA5/road.jpg");
+  height: 210px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* animation-name: road;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+
+/* @keyframes road {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: 100%;
+  }
+} */
+
+.city {
+  background-image: url("./CSSA5/city.png");
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  bottom: 210px;
+}
+
+.car {
+  height: 145px;
+  width: 345px;
+  margin-left: 400px;
+  position: relative;
+  z-index: 1;
+}
+.cars {
+  position: absolute;
+  bottom: 17%;
+}
+
+.flag {
+  height: 60px;
+  width: 70px;
+  position: absolute;
+  bottom: 29%;
+  left: 42%;
+  z-index: 4;
+}
+
+.wheel-1 {
+  height: 57px;
+  width: 57px;
+  position: absolute;
+  top: 53%;
+  left: 86.5%;
+  z-index: 10;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.wheel-2 {
+  height: 57px;
+  width: 57px;
+  position: absolute;
+  top: 53%;
+  left: 58%;
+  z-index: 10;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sun {
+  width: 70px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  z-index: 2;
+  animation-name: sun;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes sun {
+  0% {
+    right: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}

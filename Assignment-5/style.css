@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.animation-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol li {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  list-style-type: lower-alpha;
+  margin-bottom: 50px;
+}
+
+.skew-animation div {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  animation-name: skewAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skewAnimation {
+  0% {
+    transform: skewX(20deg);
+  }
+  50% {
+    transform: skewX(-20deg);
+  }
+  100% {
+    transform: skewX(20deg);
+  }
+}
+
+.skew-animation-2 div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  animation-name: skewAnimation2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skewAnimation2 {
+  0% {
+    transform: skewY(30deg);
+  }
+  50% {
+    transform: skewY(-30deg);
+  }
+  100% {
+    transform: skewY(20deg);
+  }
+}
+
+.rotate-animation div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  animation-name: rotateAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotate-all-animation div {
+  width: 100px;
+  height: 100px;
+}
+
+.rotate-all-animation div:nth-child(2) {
+  animation-name: rotateXAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: yellowgreen;
+}
+
+@keyframes rotateXAnimation {
+  0% {
+    transform: rotateX(60deg);
+  }
+  100% {
+    transform: rotateX(-60deg);
+  }
+}
+
+.rotate-all-animation div:nth-child(3) {
+  animation-name: rotateYAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: burlywood;
+}
+
+@keyframes rotateYAnimation {
+  0% {
+    transform: rotateY(60deg);
+  }
+  100% {
+    transform: rotateY(-60deg);
+  }
+}
+
+.rotate-all-animation div:nth-child(4) {
+  animation-name: rotateAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: brown;
+}
+
+a {
+  text-align: center;
+  font-size: 30px;
+  color: cornflowerblue;
+}
