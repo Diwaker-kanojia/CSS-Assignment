@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+  padding-block: 20px;
+}
+
+header span {
+  color: #00bfff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  background-color: #f8f6f6;
+  padding: 20px;
+}
+
+.add-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.add-list p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  column-gap: 100px;
+  row-gap: 20px;
+}
+
+.task-container {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.task-container:hover {
+  box-shadow: 0px 0px 5px 2px rgb(219, 218, 218);
+}
+
+.task-container h3 {
+  margin: 15px 10px;
+  color: #00bfff;
+}
+
+.task-check {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.single-task-container {
+  width: 100%;
+  display: flex;
+}
+
+.single-task-container input[type="checkbox"] {
+  width: 30px;
+}
+
+.task-check div:first-child p {
+  text-decoration: line-through;
+  color: #808080;
+}
